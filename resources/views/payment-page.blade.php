@@ -148,3 +148,4 @@ include "header.php"
 <?php
 include "footer.php"
 ?>
+<script src="https://kit.fontawesome.com/897a3f2775.js" crossorigin="anonymous"></script>
