@@ -61,6 +61,9 @@ Route::get('/rooms-check', function () {
     return view('rooms-check');
 });
 
+Route::post('/signup', 'FormController@submit'
+);
+
 Route::post('/signup', function () {
     return view('signup');
 });
