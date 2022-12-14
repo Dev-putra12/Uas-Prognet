@@ -57,6 +57,10 @@ Route::get('/signup', function () {
     return view('signup');
 });
 
+Route::get('/rooms-check', function () {
+    return view('rooms-check');
+});
+
 Route::post('/signup', function () {
     return view('signup');
 });
