@@ -12,7 +12,7 @@ include "header.php"
               <h5><span class="far fa-check-square pe-2"></span><b>ELIGIBLE</b> |</h5>
               <span class="ps-2">Pay</span>
             </div>
-            <h4 class="text-success">$85.00</h4>
+            <!-- <h4 class="text-success">$85.00</h4>
             <h4>Diabetes Pump & Supplies</h4>
             <div class="d-flex pt-2">
               <div>
@@ -52,7 +52,7 @@ include "header.php"
                 This is an estimate for the portion of your order (not covered by
                 insurance) due today . once insurance finalizes their review refunds
                 and/or balances will reconcile automatically.
-              </p>
+              </p> -->
               <form class="pb-3">
                 <div class="d-flex flex-row pb-3">
                   <div class="d-flex align-items-center pe-2">
