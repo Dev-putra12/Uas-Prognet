@@ -13,10 +13,14 @@ include "header.php"
                     <div class="card">
  
   <div class="card-body">
-  <img src="img/room/room-details.jpg" alt="..." width="50px">
+    <div class="col-4">
+    <img src="img/room/room-details.jpg" alt="..." width="50px">
+    </div>
+<div class="col-8">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
   </div>
 </div>
 
