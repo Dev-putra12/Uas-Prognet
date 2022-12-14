@@ -21,7 +21,7 @@ include "header.php"
                                         <p class="card-text">Capacity:	2 person</p>
                                         <p class="card-text">Services:	Wifi, Television, Bathroom, Dining/Work Table, Wardrobe, Free Breakfast</p>
                                         <p class="card-text">Price:	    Rp.450.000/Night</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        <a href="#" class="btn btn-primary">Book Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -37,7 +37,7 @@ include "header.php"
                                         <p class="card-text">Capacity:	2 person</p>
                                         <p class="card-text">Services:	Wifi, Television, Bathroom, Dining/Work Table, Wardrobe, Free Breakfast</p>
                                         <p class="card-text">Price:	    Rp.450.000/Night</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        <a href="#" class="btn btn-primary">Book Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -53,7 +53,7 @@ include "header.php"
                                         <p class="card-text">Capacity:	2 person</p>
                                         <p class="card-text">Services:	Wifi, Television, Bathroom, Dining/Work Table, Wardrobe, Free Breakfast</p>
                                         <p class="card-text">Price:	    Rp.450.000/Night</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        <a href="#" class="btn btn-primary">Book Now</a>
                                     </div>
                                 </div>
                             </div>
