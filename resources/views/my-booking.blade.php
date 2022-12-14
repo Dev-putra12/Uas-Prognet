@@ -56,16 +56,18 @@ include "header.php"
                                         <p class="card-text">Price: Rp.450.000/Night</p>
                                         <!-- code untuk collapse -->
                                         <p>
-                                            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample2"
-                                                role="button" aria-expanded="false" aria-controls="collapseExample">
+                                            <a class="btn btn-primary" data-bs-toggle="collapse"
+                                                href="#collapseExample2" role="button" aria-expanded="false"
+                                                aria-controls="collapseExample">
                                                 More Details
                                             </a>
                                         </p>
                                         <div class="collapse" id="collapseExample2">
                                             <div class="card card-body">
-                                                Some placeholder content for the collapse component. This panel is
-                                                hidden by default but revealed when the user activates the relevant
-                                                trigger.
+                                                <p>Check In Date : </p>
+                                                <p>Check Out Date :</p>
+                                                <p>Payment Method :</p>
+                                                <p>Pax : </p>
                                             </div>
                                         </div>
                                         <!-- tutup code collapse -->
@@ -88,16 +90,18 @@ include "header.php"
                                         <p class="card-text">Price: Rp.450.000/Night</p>
                                         <!-- code untuk collapse -->
                                         <p>
-                                            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample3"
-                                                role="button" aria-expanded="false" aria-controls="collapseExample">
+                                            <a class="btn btn-primary" data-bs-toggle="collapse"
+                                                href="#collapseExample3" role="button" aria-expanded="false"
+                                                aria-controls="collapseExample">
                                                 More Details
                                             </a>
                                         </p>
                                         <div class="collapse" id="collapseExample3">
                                             <div class="card card-body">
-                                                Some placeholder content for the collapse component. This panel is
-                                                hidden by default but revealed when the user activates the relevant
-                                                trigger.
+                                                <p>Check In Date : </p>
+                                                <p>Check Out Date :</p>
+                                                <p>Payment Method :</p>
+                                                <p>Pax : </p>
                                             </div>
                                         </div>
                                         <!-- tutup code collapse -->

@@ -4,6 +4,7 @@ include "header.php"
 <!-- About Us Page Section Begin -->
 <section class="aboutus-page-section spad">
     <div class="container">
+        <center><h1>Rooms available</h1></center>
         <div class="about-page-text">
             <div class="row">
                 <div class="col-lg-10">
