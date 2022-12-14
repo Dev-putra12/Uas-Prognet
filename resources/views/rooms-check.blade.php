@@ -1,8 +1,6 @@
 <?php
 include "header.php"
 ?>
-
-
 <!-- About Us Page Section Begin -->
 <section class="aboutus-page-section spad">
     <div class="container">
