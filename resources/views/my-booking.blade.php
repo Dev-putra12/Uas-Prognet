@@ -102,7 +102,7 @@ include "header.php"
                                                 aria-controls="collapseExample">
                                                 More Details
                                             </a>
-                                            <a class="btn btn-danger">Cancel </a>
+                                            <a class="btn btn-danger">Canceled </a>
                                         </p>
                                         <div class="collapse" id="collapseExample3">
                                             <div class="card card-body">
