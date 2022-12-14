@@ -21,9 +21,6 @@
                     <input class="login-bg acc-text" type="text" name="bilangan1" id="bilangan1" placeholder="Enter username or email" 
                     required/>
                     <center><div class="underborder"></div></center>
-                    <span class="error visHide" id="bil1Error">
-                        <p>*username or email incorrect</p>
-                    </span>
                 </p>
                 <p class="label">
                     Password
@@ -32,10 +29,6 @@
                     <center><div class="underborder"></div></center>
 
                     <a href="#" class="forgot-pass">Forgot Password?</a>
-
-                    <span class="error visHide" id="bil2Error">
-                        <p>*password incorrect</p>
-                    </span>
                 </p>
         
             <div class="pos">
@@ -55,4 +48,3 @@
     <script type="text/javascript" src="login.js"></script>
 </body>
 </html>
-
