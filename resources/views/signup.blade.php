@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log In</title>
+    <title>Sign Up</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <!DOCTYPE html>
@@ -18,26 +18,35 @@
             <fieldset class="boxborder">
                 <p class="label">
                     Username
-                    <input class="login-bg acc-text" type="text" name="bilangan1" id="bilangan1" placeholder="Enter username or email" 
+                    <input class="login-bg acc-text" type="text" name="user" id="user" placeholder="Enter Username" 
                     required/>
                     <center><div class="underborder"></div></center>
+                    <span class="error visHide" id="error1">
+                        *min. 3 characters and no symbols
+                    </span>
                 </p>
                 <p class="label">
                     Email
-                    <input class="login-bg acc-text" type="text" name="bilangan1" id="bilangan1" placeholder="Enter username or email" 
+                    <input class="login-bg acc-text" type="text" name="email" id="email" placeholder="Enter Email" 
                     required/>
                     <center><div class="underborder"></div></center>
+                    <span class="error visHide" id="error2">
+                        *email invalid
+                    </span>
                 </p>
                 <p class="label">
                     Password
-                    <input class="login-bg acc-text" type="password" name="bilangan2" id="bilangan2" placeholder="Enter Password" 
+                    <input class="login-bg acc-text" type="password" name="pass" id="pass" placeholder="Enter Password" 
                     required/>
                     <center><div class="underborder"></div></center>
+                    <span class="error visHide" id="error3">
+                        *password min. 8 digit
+                    </span>
                 </p>
         
             <div class="pos">
                 <input type="reset" value="Reset" class="oth-btn">
-                <button class="acc-btn" data-hover="Log In" type="submit" name="login" id="login">
+                <button class="acc-btn" data-hover="Sign Up" type="submit" name="signup" id="signup">
                     <div>Done?</div>
                 </button>
             </div>
@@ -50,7 +59,6 @@
         </form>
     </div>
 
-    <script type="text/javascript" src="login.js"></script>
+    <script src="js/validate.js"></script>
 </body>
 </html>
-
