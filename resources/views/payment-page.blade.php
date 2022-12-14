@@ -1,3 +1,7 @@
+<?php
+include "header.php"
+?>
+
 <section style="background-color: #eee;">
   <div class="container py-5">
     <div class="card">
@@ -140,3 +144,7 @@
     </div>
   </div>
 </section>
+
+<?php
+include "footer.php"
+?>
