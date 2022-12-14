@@ -11,7 +11,7 @@
 
 <body class="login-section">
     <div>
-        <form name="form" action="home" method="GET" class="base login-form" onsubmit="valAlert()">
+        <form name="form" action="" method="GET" class="base login-form" onsubmit="valAlert()">
             <div id="title">
                 <br><center><h1><strong>LOG IN</strong></h1></center>
             </div>
@@ -32,7 +32,7 @@
                 </p>
         
             <div class="pos">
-                <button class="acc-btn" data-hover="Log In" type="submit" name="login" id="login">
+                <button class="acc-btn" data-hover="Log In" type="submit" name="login" id="login" formaction="home">
                     <div>Done?</div>
                 </button>
             </div>
