@@ -9,46 +9,46 @@ include "header.php"
         <div class="row d-flex justify-content-center pb-5">
           <div class="col-md-7 col-xl-5 mb-4 mb-md-0">
             <div class="py-4 d-flex flex-row">
-              <h5><span class="far fa-check-square pe-2"></span><b>ELIGIBLE</b> |</h5>
-              <span class="ps-2">Pay</span>
+              <!-- <h5><span class="far fa-check-square pe-2"></span><b>ELIGIBLE</b> |</h5>
+              <span class="ps-2">Pay</span> -->
             </div>
             <!-- <h4 class="text-success">$85.00</h4>
-            <h4>Diabetes Pump & Supplies</h4>
+            <h4>Diabetes Pump & Supplies</h4> -->
             <div class="d-flex pt-2">
               <div>
-                <p>
+                <!-- <p>
                   <b>Insurance Responsibility <span class="text-success">$71.76</span></b>
-                </p>
+                </p> -->
               </div>
               <div class="ms-auto">
-                <p class="text-primary">
+                <!-- <p class="text-primary">
                   <i class="fas fa-plus-circle text-primary pe-1"></i>Add insurance card
-                </p>
+                </p> -->
               </div>
             </div>
-            <p>
+            <!-- <p>
               Insurance claims and all necessary dependencies will be submitted to your
               insurer for the coverred portion of this order
-            </p>
+            </p> -->
             <div class="rounded d-flex" style="background-color: #f8f9fa;">
-              <div class="p-2">Aetna-Open Access</div>
-              <div class="ms-auto p-2">OAP</div>
+              <!-- <div class="p-2">Aetna-Open Access</div>
+              <div class="ms-auto p-2">OAP</div> -->
             </div>
             <hr />
             <div class="pt-2">
               <div class="d-flex pb-2">
                 <div>
-                  <p>
+                  <!-- <p>
                     <b>Patient Balance <span class="text-success">$13.24</span></b>
-                  </p>
+                  </p> -->
                 </div>
                 <div class="ms-auto">
-                  <p class="text-primary">
+                  <!-- <p class="text-primary">
                     <i class="fas fa-plus-circle text-primary pe-1"></i>Add payment card
-                  </p>
+                  </p> -->
                 </div>
               </div>
-              <p>
+              <!-- <p>
                 This is an estimate for the portion of your order (not covered by
                 insurance) due today . once insurance finalizes their review refunds
                 and/or balances will reconcile automatically.
