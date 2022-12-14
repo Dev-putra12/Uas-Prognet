@@ -55,12 +55,12 @@ include "header.php"
                                         <p class="card-text">Price: Rp.450.000/Night</p>
                                         <!-- code untuk collapse -->
                                         <p>
-                                            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample"
+                                            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample2"
                                                 role="button" aria-expanded="false" aria-controls="collapseExample">
                                                 More Details
                                             </a>
                                         </p>
-                                        <div class="collapse" id="collapseExample">
+                                        <div class="collapse" id="collapseExample2">
                                             <div class="card card-body">
                                                 Some placeholder content for the collapse component. This panel is
                                                 hidden by default but revealed when the user activates the relevant
