@@ -65,6 +65,6 @@ Route::post('/signup', function () {
     return view('signup');
 });
 
-Route::post('/my-booking', function () {
+Route::get('/my-booking', function () {
     return view('my-booking');
 });
