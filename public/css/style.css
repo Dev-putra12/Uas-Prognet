@@ -2663,12 +2663,13 @@ h1 {
     font-size: 8pt;
     position: absolute;
     color: red;
-    margin: -9px 68px;
+    margin: 1px 34px;
     text-align: center;
 }
 .visHide {
     opacity: 0;
 }
 .visShow {
-    opacity: 1;
+    opacity: 1;
 }
+
