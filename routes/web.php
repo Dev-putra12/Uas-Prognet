@@ -61,6 +61,6 @@ Route::get('/rooms-check', function () {
     return view('rooms-check');
 });
 
-Route::head('/signup', function () {
+Route::post('/signup', function () {
     return view('signup');
 });
