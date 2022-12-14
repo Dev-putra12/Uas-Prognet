@@ -52,7 +52,7 @@ include "header.php"
                                 <option value="">Regular Suite</option>
                             </select>
                         </div>
-                        <a href="rooms-check"><button>Check Availability</button></a>
+                        <a href="rooms-check">Check Availability</a>
                         
                     </form>
                 </div>
