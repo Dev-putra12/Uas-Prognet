@@ -25,10 +25,7 @@ include "header.php"
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-
-                    <div class="card" aria-hidden="true">
+                            <div class="card" aria-hidden="true">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title placeholder-glow">
@@ -42,6 +39,8 @@ include "header.php"
                                 <span class="placeholder col-8"></span>
                             </p>
                             <a href="#" tabindex="-1" class="btn btn-primary disabled placeholder col-6"></a>
+                        </div>
+                    </div>
                         </div>
                     </div>
                 </div>
