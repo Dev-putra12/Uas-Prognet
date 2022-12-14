@@ -14,7 +14,7 @@ include "header.php"
  
   <div class="card-body">
     <div class="col-4">
-    <img src="img/room/room-details.jpg" alt="..." width="50px">
+    <img src="img/room/room-details.jpg" alt="..." width="200px">
     </div>
 <div class="col-8">
     <h5 class="card-title">Card title</h5>
