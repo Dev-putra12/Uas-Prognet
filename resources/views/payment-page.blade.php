@@ -88,7 +88,7 @@ include "header.php"
 
           <div class="col-md-5 col-xl-4 offset-xl-1">
             <div class="py-4 d-flex justify-content-end">
-              <h6><a href="rooms-detail">Cancel and return to website</a></h6>
+              <h6><a href="room-details">Cancel and return to website</a></h6>
             </div>
             <div class="rounded d-flex flex-column p-2" style="background-color: #f8f9fa;">
               <div class="p-2 me-3">
