@@ -32,7 +32,7 @@ include "header.php"
                                                 role="button" aria-expanded="false" aria-controls="collapseExample">
                                                 More Details
                                             </a>
-                                            <a class="btn btn-danger">Pending </a>
+                                            <a class="btn btn-inform">Pending </a>
                                         </p>
                                         <div class="collapse" id="collapseExample">
                                             <div class="card card-body">
@@ -67,6 +67,7 @@ include "header.php"
                                                 aria-controls="collapseExample">
                                                 More Details
                                             </a>
+                                            <a class="btn btn-success">Success </a>
                                         </p>
                                         <div class="collapse" id="collapseExample2">
                                             <div class="card card-body">
@@ -101,6 +102,7 @@ include "header.php"
                                                 aria-controls="collapseExample">
                                                 More Details
                                             </a>
+                                            <a class="btn btn-danger">Cancel </a>
                                         </p>
                                         <div class="collapse" id="collapseExample3">
                                             <div class="card card-body">
