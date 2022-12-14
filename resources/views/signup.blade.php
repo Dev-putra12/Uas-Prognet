@@ -46,7 +46,8 @@
         
             <div class="pos">
                 <input type="reset" value="Reset" class="oth-btn">
-                <button class="acc-btn" data-hover="Sign Up" type="submit" name="signup" id="signup">
+                <button class="acc-btn" data-hover="Sign Up" type="submit" name="signup" id="signup" formaction="login">
+                    
                     <div>Done?</div>
                 </button>
             </div>
