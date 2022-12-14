@@ -11,7 +11,7 @@ include "header.php"
                 <div class="col-lg-10">
                     <div class="ap-title">
                     <div class="card">
-  <img src="img/room/room-details.jpg" class="card-img-top" alt="..." width="50px">
+  <img src="img/room/room-details.jpg" alt="..." width="50px">
 
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
