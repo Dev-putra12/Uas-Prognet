@@ -2569,6 +2569,7 @@ h1 {
     letter-spacing: 2px;
     text-align: center;
     width: 100%;
+	text-decoration: none;
 }
 .acc-text::placeholder {
     opacity: 0;
@@ -2576,7 +2577,7 @@ h1 {
 }
 .acc-text:focus::placeholder {
     transition: 0.3s;
-    opacity: 0;
+    opacity: 1;
 }
 
    
