@@ -21,17 +21,6 @@ include "header.php"
                                         <p class="card-text">Services: Wifi, Television, Bathroom, Dining/Work Table,
                                             Wardrobe, Free Breakfast</p>
                                         <p class="card-text">Price: Rp.450.000/Night</p>
-                                        <p>
-                                            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample"
-                                                role="button" aria-expanded="false" aria-controls="collapseExample">
-                                                Link with href
-                                            </a>
-                                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseExample" aria-expanded="false"
-                                                aria-controls="collapseExample">
-                                                Button with data-bs-target
-                                            </button>
-                                        </p>
                                         <div class="collapse" id="collapseExample">
                                             <div class="card card-body">
                                                 Some placeholder content for the collapse component. This panel is
@@ -39,7 +28,6 @@ include "header.php"
                                                 trigger.
                                             </div>
                                         </div>
-                                        <a href="rooms-details" class="btn btn-primary">Book Now</a>
                                     </div>
                                 </div>
                             </div>
