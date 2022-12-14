@@ -16,7 +16,7 @@ include "header.php"
                                     <div class="col-4"> <img src="img/room/room-details.jpg" alt="..." width="200px">
                                     </div>
                                     <div class="col-6">
-                                        <!-- <h5 class="card-title"><?= $tipekamar&$nokamar?></h5> -->
+                                    <!-- < $tipekamar&$nokamar> -->
                                         <h5 class="card-title">Reguler Suite</h5>
                                         <p class="card-text">Capacity:	2 person</p>
                                         <p class="card-text">Services:	Wifi, Television, Bathroom, Dining/Work Table, Wardrobe, Free Breakfast</p>
