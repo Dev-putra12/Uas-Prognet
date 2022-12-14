@@ -42,7 +42,7 @@
           </div>
           <div class="col-lg-6">
             <div class="tn-right">
-              <a href="#" class="bk-btn">My Booking</a>
+              <a href="my-booking" class="bk-btn">My Booking</a>
               <a href="login" class="bk-btn1">Log In</a>
               |
               <a href="signup" class="bk-btn1">Sign Up</a>

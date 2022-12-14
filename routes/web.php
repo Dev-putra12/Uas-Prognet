@@ -64,3 +64,7 @@ Route::get('/rooms-check', function () {
 Route::post('/signup', function () {
     return view('signup');
 });
+
+Route::post('/my-booking', function () {
+    return view('my-booking');
+});
