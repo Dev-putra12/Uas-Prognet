@@ -69,7 +69,7 @@ Route::get('/my-booking', function () {
     return view('my-booking');
 });
 
-Route::get('/payment', function () {
-    return view('payment');
+Route::get('/payment-page', function () {
+    return view('payment-page');
 });
 

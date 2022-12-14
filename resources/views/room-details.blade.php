@@ -172,7 +172,7 @@ include "header.php"
                                 <option value="">Group Room</option>
                             </select>
                         </div>
-                        <button type="submit" formaction="payment">Book Now</button>
+                        <button type="submit" formaction="payment-page">Book Now</button>
                     </form>
                 </div>
             </div>
