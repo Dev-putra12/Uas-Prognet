@@ -21,11 +21,12 @@ include "header.php"
                                         <p class="card-text">Services: Wifi, Television, Bathroom, Dining/Work Table,
                                             Wardrobe, Free Breakfast</p>
                                         <p class="card-text">Price: Rp.450.000/Night</p>
+                                        <!-- code untuk collapse -->
                                         <p>
                                             <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseWidthExample" aria-expanded="false"
                                                 aria-controls="collapseWidthExample">
-                                                Toggle width collapse
+                                                Lihat detail informasi
                                             </button>
                                         </p>
                                         <div style="min-height: 120px;">
@@ -36,7 +37,7 @@ include "header.php"
                                                 </div>
                                             </div>
                                         </div>
-                                        <a href="rooms-details" class="btn btn-primary">Book Now</a>
+                                        <!-- tutup code collapse -->
                                     </div>
                                 </div>
                             </div>
