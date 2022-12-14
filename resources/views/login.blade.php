@@ -11,7 +11,7 @@
 
 <body class="login-section">
     <div>
-        <form name="form" action="#" method="POST" class="base login-form" onsubmit="valAlert()">
+        <form name="form" action="home" method="GET" class="base login-form" onsubmit="valAlert()">
             <div id="title">
                 <br><center><h1><strong>LOG IN</strong></h1></center>
             </div>
