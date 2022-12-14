@@ -4,6 +4,11 @@ include "header.php"
 <!-- About Us Page Section Begin -->
 <section class="aboutus-page-section spad">
     <div class="container">
+        <div class="breadcrumb-text">
+            <h2>My Bookings</h2>
+            <div class="bt-option">
+            </div>
+        </div>
         <div class="about-page-text">
             <div class="row">
                 <div class="col-lg-10">
