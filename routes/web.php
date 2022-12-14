@@ -68,3 +68,8 @@ Route::post('/signup', function () {
 Route::get('/my-booking', function () {
     return view('my-booking');
 });
+
+Route::get('/payment-page', function () {
+    return view('payment-page');
+});
+
