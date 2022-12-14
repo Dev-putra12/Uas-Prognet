@@ -30,9 +30,10 @@ include "header.php"
                                         </p>
                                         <div class="collapse" id="collapseExample">
                                             <div class="card card-body">
-                                                Some placeholder content for the collapse component. This panel is
-                                                hidden by default but revealed when the user activates the relevant
-                                                trigger.
+                                                <p>Check In Date : </p>
+                                                <p>Check Out Date :</p>
+                                                <p>Payment Method :</p>
+                                                <p>Pax : </p>
                                             </div>
                                         </div>
                                         <!-- tutup code collapse -->
