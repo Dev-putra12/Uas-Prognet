@@ -13,7 +13,7 @@ include "header.php"
                         <div class="card">
                             <div class="card-body">
                                 <div class="row">
-                                    <div class="col-4"> <img src="img/room/room-details.jpg" alt="..." width="200px">
+                                    <div class="col-4"> <img src="img/room/room-details.jpg" alt="..." width="400px">
                                     </div>
                                     <div class="col-6">
                                     <!-- < $tipekamar&$nokamar> -->
