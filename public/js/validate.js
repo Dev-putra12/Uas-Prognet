@@ -20,12 +20,12 @@ function valAlert(e){
         error2.classList.contains("visShow") || 
         error3.classList.contains("visShow")){
             e.preventDefault();
-            alert("Inputan Masih Salah!");
+            alert("Wrong Input!");
         }else{
             return true;
         }
     }else{
-        alert("Isilah Data dengan Lengkap");
+        alert("Completly Fill The Form");
     }
 }
 
@@ -73,5 +73,5 @@ function validatepassword(z){
         error3.classList.remove("visHide");
         error3.classList.add("visShow");
         return true;
-    }
+}
 }
