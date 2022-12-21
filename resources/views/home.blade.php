@@ -44,14 +44,6 @@ include "header.php"
                                 <option value="">Group Room</option>
                             </select>
                         </div>
-                        <div class="select-option">
-                            <label for="room">Type:</label>
-                            <select id="room">
-                                <option value="">King Suite</option>
-                                <option value="">VIP Suite</option>
-                                <option value="">Regular Suite</option>
-                            </select>
-                        </div>
                         <button type="submit" formaction="rooms-check">Check Availability</button>
                     </form>
                 </div>

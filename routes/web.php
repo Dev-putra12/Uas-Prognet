@@ -73,3 +73,30 @@ Route::get('/payment-page', function () {
     return view('payment-page');
 });
 
+Route::get('/admin', function () {
+    return view('/admin/admin');
+});
+
+Route::get('/billing-admin', function () {
+    return view('/admin/billing-admin');
+});
+
+Route::get('/profile-admin', function () {
+    return view('/admin/profile-admin');
+});
+
+Route::get('/sign-in-admin', function () {
+    return view('/admin/sign-in-admin');
+});
+
+Route::get('/sign-up-admin', function () {
+    return view('/admin/sign-up-admin');
+});
+
+Route::get('/tables-admin', function () {
+    return view('/admin/tables-admin');
+});
+
+Route::get('/daftar-tamu', function () {
+    return view('/admin/daftar-tamu');
+});

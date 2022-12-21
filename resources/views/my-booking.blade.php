@@ -3,12 +3,22 @@ include "header.php"
 ?>
 <!-- About Us Page Section Begin -->
 <section class="aboutus-page-section spad">
-    <div class="container">
-        <div class="breadcrumb-text">
-            <h2>My Bookings</h2>
-            <div class="bt-option">
+    <div class="breadcrumb-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-text">
+                        <h2>My Booking</h2>
+                        <div class="bt-option">
+                            <a href="./home">Home</a>
+                            <span>My Booking</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
+    <div class="container">
         <div class="about-page-text">
             <div class="row">
                 <div class="col-lg-10">
@@ -21,7 +31,7 @@ include "header.php"
                                     </div>
                                     <div class="col-6">
                                         <!-- < $tipekamar&$nokamar> -->
-                                        <h5 class="card-title">Reguler Suite #1</h5>
+                                        <h4 class="card-title">Reguler Suite #1</h4>
                                         <p class="card-text">Capacity: 2 person</p>
                                         <p class="card-text">Services: Wifi, Television, Bathroom, Dining/Work Table,
                                             Wardrobe, Free Breakfast</p>
@@ -32,7 +42,7 @@ include "header.php"
                                                 role="button" aria-expanded="false" aria-controls="collapseExample">
                                                 More Details
                                             </a>
-                                            <a class="btn btn-warning">Pending </a>
+                                            <a class="btn btn-warning text-white">Pending </a>
                                         </p>
                                         <div class="collapse" id="collapseExample">
                                             <div class="card card-body">
@@ -55,7 +65,7 @@ include "header.php"
                                     </div>
                                     <div class="col-6">
                                         <!-- < $tipekamar&$nokamar> -->
-                                        <h5 class="card-title">Reguler Suite #1</h5>
+                                        <h4 class="card-title">Reguler Suite #2</h4>
                                         <p class="card-text">Capacity: 2 person</p>
                                         <p class="card-text">Services: Wifi, Television, Bathroom, Dining/Work Table,
                                             Wardrobe, Free Breakfast</p>
@@ -67,7 +77,7 @@ include "header.php"
                                                 aria-controls="collapseExample">
                                                 More Details
                                             </a>
-                                            <a class="btn btn-success">Success </a>
+                                            <a class="btn btn-success text-white">Success </a>
                                         </p>
                                         <div class="collapse" id="collapseExample2">
                                             <div class="card card-body">
@@ -90,7 +100,7 @@ include "header.php"
                                     </div>
                                     <div class="col-6">
                                         <!-- < $tipekamar&$nokamar> -->
-                                        <h5 class="card-title">Reguler Suite #1</h5>
+                                        <h4 class="card-title">Reguler Suite #3</h4>
                                         <p class="card-text">Capacity: 2 person</p>
                                         <p class="card-text">Services: Wifi, Television, Bathroom, Dining/Work Table,
                                             Wardrobe, Free Breakfast</p>
@@ -102,7 +112,7 @@ include "header.php"
                                                 aria-controls="collapseExample">
                                                 More Details
                                             </a>
-                                            <a class="btn btn-danger">Canceled </a>
+                                            <a class="btn btn-danger text-white">Canceled </a>
                                         </p>
                                         <div class="collapse" id="collapseExample3">
                                             <div class="card card-body">

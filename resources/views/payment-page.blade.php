@@ -9,50 +9,33 @@ include "header.php"
         <div class="row d-flex justify-content-center pb-5">
           <div class="col-md-7 col-xl-5 mb-4 mb-md-0">
             <div class="py-4 d-flex flex-row">
-              <h5><span class="far fa-check-square pe-2"></span><b>ELIGIBLE</b> |</h5>
-              <span class="ps-2">Pay</span>
+              <h5><span class="far fa-check-square pe-2"></span><b>PAYMENT</b> |</h5>
+              <span class="ps-2">Details</span>
             </div>
-            <h4 class="text-success">$85.00</h4>
-            <h4>Diabetes Pump & Supplies</h4>
+            <h4 class="text-success">Rp450.000</h4>
+            <h4>Regular Suite</h4><br>
             <div class="d-flex pt-2">
               <div>
                 <p>
-                  <b>Insurance Responsibility <span class="text-success">$71.76</span></b>
-                </p>
-              </div>
-              <div class="ms-auto">
-                <p class="text-primary">
-                  <i class="fas fa-plus-circle text-primary pe-1"></i>Add insurance card
+                  <b>Tax <span class="text-success">10%</span></b>
                 </p>
               </div>
             </div>
             <p>
-              Insurance claims and all necessary dependencies will be submitted to your
-              insurer for the coverred portion of this order
+              Tax 10% included in all room order.
             </p>
-            <div class="rounded d-flex" style="background-color: #f8f9fa;">
-              <div class="p-2">Aetna-Open Access</div>
-              <div class="ms-auto p-2">OAP</div>
-            </div>
             <hr />
             <div class="pt-2">
               <div class="d-flex pb-2">
                 <div>
                   <p>
-                    <b>Patient Balance <span class="text-success">$13.24</span></b>
-                  </p>
-                </div>
-                <div class="ms-auto">
-                  <p class="text-primary">
-                    <i class="fas fa-plus-circle text-primary pe-1"></i>Add payment card
+                    <b>Admin Fee <span class="text-success">0.4%</span></b>
                   </p>
                 </div>
               </div>
               <p>
-                This is an estimate for the portion of your order (not covered by
-                insurance) due today . once insurance finalizes their review refunds
-                and/or balances will reconcile automatically.
-              </p>
+                Admin Fee included 0.4% in all room order through the website.
+              </p><br>
               <form class="pb-3">
                 <div class="d-flex flex-row pb-3">
                   <div class="d-flex align-items-center pe-2">
@@ -95,47 +78,25 @@ include "header.php"
                 <h4>Order Recap</h4>
               </div>
               <div class="p-2 d-flex">
-                <div class="col-8">Contracted Price</div>
-                <div class="ms-auto">$186.76</div>
-              </div>
-              <div class="p-2 d-flex">
-                <div class="col-8">Amount toward deductible</div>
-                <div class="ms-auto">$0.00</div>
-              </div>
-              <div class="p-2 d-flex">
-                <div class="col-8">Coinsurance( 0% )</div>
-                <div class="ms-auto">+ $0.00</div>
-              </div>
-              <div class="p-2 d-flex">
-                <div class="col-8">Copayment</div>
-                <div class="ms-auto">+ $40.00</div>
+                <div class="col-8">Regular Suite x1</div>
+                <div class="ms-auto">Rp450.000</div>
               </div>
               <div class="border-top px-2 mx-2"></div>
+              <div class="border-top px-2 mx-2"></div>
               <div class="p-2 d-flex pt-3">
-                <div class="col-8">Total Deductible, Coinsurance, and Copay</div>
-                <div class="ms-auto">$40.00</div>
+                <div class="col-8">Tax 10%</div>
+                <div class="ms-auto"><b>Rp45.000</b></div>
               </div>
               <div class="p-2 d-flex">
                 <div class="col-8">
-                  Maximum out-of-pocket on Insurance Policy (not reached)
+                  Admin Fee 0.4% <span class="fa fa-question-circle text-dark"></span>
                 </div>
-                <div class="ms-auto">$6500.00</div>
-              </div>
-              <div class="border-top px-2 mx-2"></div>
-              <div class="p-2 d-flex pt-3">
-                <div class="col-8">Insurance Responsibility</div>
-                <div class="ms-auto"><b>$71.76</b></div>
-              </div>
-              <div class="p-2 d-flex">
-                <div class="col-8">
-                  Patient Balance <span class="fa fa-question-circle text-dark"></span>
-                </div>
-                <div class="ms-auto"><b>$71.76</b></div>
+                <div class="ms-auto"><b>Rp1.800</b></div>
               </div>
               <div class="border-top px-2 mx-2"></div>
               <div class="p-2 d-flex pt-3">
                 <div class="col-8"><b>Total</b></div>
-                <div class="ms-auto"><b class="text-success">$85.00</b></div>
+                <div class="ms-auto"><b class="text-success">Rp496.800</div>
               </div>
             </div>
           </div>

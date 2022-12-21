@@ -33,7 +33,7 @@ function valAlert(e){
 function validateuser(z){
     let regex = /^[a-zA-Z ]*$/
 
-    if(regex.test(valuser.value)){
+    if(regex.test(valuser.value) && valuser.value.length >= 3){
         error1.classList.add("visHide");
         error1.classList.remove("visShow");
         return true;
