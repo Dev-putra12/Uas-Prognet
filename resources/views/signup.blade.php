@@ -11,14 +11,24 @@
 
 <body class="login-section">
     <div>
-        <form name="form" action="#" method="GET" class="base login-form" onsubmit="valAlert()">
+        <form name="form" action="/signup" method="POST" class="base login-form"  onsubmit="valAlert()">
+        @csrf
             <div id="title">
                 <br><center><h1><strong>SIGN UP</strong></h1></center>
             </div>
             <fieldset class="boxborder">
                 <p class="label">
+                    Name
+                    <input class="login-bg acc-text" type="text" name="name" id="name" placeholder="Enter Name"
+                    required/>
+                    <center><div class="underborder"></div></center>
+                    <span class="error visHide" id="error1">
+                        *min. 3 characters and no symbols
+                    </span>
+                </p>
+                <p class="label">
                     Username
-                    <input class="login-bg acc-text" type="text" name="user" id="user" placeholder="Enter Username" 
+                    <input class="login-bg acc-text" type="text" name="username" id="username" placeholder="Enter Username"
                     required/>
                     <center><div class="underborder"></div></center>
                     <span class="error visHide" id="error1">
@@ -27,7 +37,7 @@
                 </p>
                 <p class="label">
                     Email
-                    <input class="login-bg acc-text" type="text" name="email" id="email" placeholder="Enter Email" 
+                    <input class="login-bg acc-text" type="text" name="email" id="email" placeholder="Enter Email"
                     required/>
                     <center><div class="underborder"></div></center>
                     <span class="error visHide" id="error2">
@@ -36,22 +46,22 @@
                 </p>
                 <p class="label">
                     Password
-                    <input class="login-bg acc-text" type="password" name="pass" id="pass" placeholder="Enter Password" 
+                    <input class="login-bg acc-text" type="password" name="password" id="password" placeholder="Enter Password"
                     required/>
                     <center><div class="underborder"></div></center>
                     <span class="error visHide" id="error3">
                         *password min. 8 digit
                     </span>
                 </p>
-        
+
             <div class="pos">
                 <input type="reset" value="Reset" class="oth-btn">
-                <button class="acc-btn" data-hover="Sign Up" type="submit" name="signup" id="signup" formaction="login">
-                    
+                <button class="acc-btn" data-hover="Sign Up" type="submit" name="signup" id="signup">
+
                     <div>Done?</div>
                 </button>
             </div>
-            
+
             <p class="no-acc">Have an Account?
                 <a href="login" class="oth-btn">Log In</a>
             </p>

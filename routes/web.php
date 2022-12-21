@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\RegisterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -12,6 +14,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+// Route::get('login', 'AuthController@login')->name('login');
+// Route::post('login', 'AuthController@login');
+// Route::get('logout', 'AuthController@logout')->name('logout');
 
 Route::get('/', function () {
     return view('home');
@@ -49,21 +54,16 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('/login', function () {
-    return view('login');
-});
+Route::get('/login',  [LoginController::class, 'login']);
 
-Route::get('/signup', function () {
-    return view('signup');
-});
+Route::get('/signup', [RegisterController::class, 'signup']);
+
+Route::post('/signup', [RegisterController::class, 'store']);
 
 Route::get('/rooms-check', function () {
     return view('rooms-check');
 });
 
-Route::post('/signup', function () {
-    return view('signup');
-});
 
 Route::get('/my-booking', function () {
     return view('my-booking');
